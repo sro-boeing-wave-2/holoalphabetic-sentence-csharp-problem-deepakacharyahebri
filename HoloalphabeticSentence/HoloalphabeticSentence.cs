@@ -14,9 +14,9 @@ namespace HoloalphabeticSentence
             int end = alphabets[alphabets.Length-1];
             char[] CharacterArray = input.ToLower().ToCharArray();
             List<char> SortedList = CharacterArray.OrderBy(x => x).ToList();
-            foreach (char a in SortedList)
+            foreach (char Ch in SortedList)
             {
-                int AsciiValue = a;
+                int AsciiValue = Ch;
                 if (AsciiValue < previous) continue;
                 if (AsciiValue > end) break;
                 if (AsciiValue != previous && AsciiValue != previous + 1)
