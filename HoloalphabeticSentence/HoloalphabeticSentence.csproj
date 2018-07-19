@@ -4,4 +4,22 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="HoloalphabeticSentence">
+      <HintPath>bin\Debug\netstandard2.0\HoloalphabeticSentence.dll</HintPath>
+    </Reference>
+    <Reference Include="HoloalphabeticSentence.Tests">
+      <HintPath>..\HoloalphabeticSentence.Tests\bin\Debug\netcoreapp2.1\HoloalphabeticSentence.Tests.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.reporters.netcoreapp10">
+      <HintPath>..\HoloalphabeticSentence.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.utility.netcoreapp10">
+      <HintPath>..\HoloalphabeticSentence.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.runner.visualstudio.dotnetcore.testadapter">
+      <HintPath>..\HoloalphabeticSentence.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
